@@ -1,24 +1,49 @@
-import logo from './logo.svg';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import './App.css';
+import {useState,useEffect} from 'react';
+import axios from 'axios';
+import {useSpeechSynthesis} from 'react-speech-kit';
+
 
 
 function App() {
+  const [advice, setAdvice] = useState('');
+  const { speak, speaking } = useSpeechSynthesis();
+
+  useEffect(() => {
+    fetchAdvice();
+  }, []);
+
+  const fetchAdvice = () => {
+    axios
+      .get('https://api.adviceslip.com/advice')
+      .then((response) => {
+        const { advice } = response.data.slip;
+        setAdvice(advice);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  const speakAdvice = () => {
+    if (!speaking) {
+      speak({ text: advice });
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="card">
+        <h1 className="heading">{advice}</h1>
+        <button className="button" onClick={fetchAdvice}>
+          <span>Generate</span>
+        </button>
+        <button className="button" onClick={speakAdvice}>
+          <span>Narrate</span>
+        </button>
+      </div>
     </div>
   );
 }
