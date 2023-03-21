@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
 import './App.css';
 import {useState,useEffect} from 'react';
 import axios from 'axios';
@@ -35,7 +35,8 @@ function App() {
 
   return (
     <div className="app">
-      <div className="card">
+      <img alt="" className="logo"></img>
+       <div className="card">
         <h1 className="heading">{advice}</h1>
         <button className="button" onClick={fetchAdvice}>
           <span>Generate</span>
