@@ -11,10 +11,20 @@
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
+.logo {
+  background-image: url('./images/narrator_app.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 30%;
+  width: 30%;
+}
+
 /* card */
 .card {
   background:rgba(255, 255, 255, 0.5);
@@ -41,6 +51,7 @@
   text-decoration: none;
   border-radius: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   cursor: pointer;
