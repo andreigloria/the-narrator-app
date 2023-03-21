@@ -4,6 +4,7 @@ import './App.css';
 import {useState,useEffect} from 'react';
 import axios from 'axios';
 import {useSpeechSynthesis} from 'react-speech-kit';
+//import Logo from './images'
 
 
 
@@ -35,9 +36,13 @@ function App() {
 
   return (
     <div className="app">
+      <header className="header">
+      
+      <h1 className="title">The Narrator App</h1>
+      </header>
       <img alt="" className="logo"></img>
        <div className="card">
-        <h1 className="heading">{advice}</h1>
+        <h2 className="heading">{advice}</h2>
         <button className="button" onClick={fetchAdvice}>
           <span>Generate</span>
         </button>

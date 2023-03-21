@@ -17,13 +17,26 @@
   align-items: center;
   text-align: center;
 }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 .logo {
-  background-image: url('./images/narrator_app.png');
+  background-image: url('./images/narrator_app1.png');
   background-repeat: no-repeat;
-  background-position: 50%;
-  height: 30%;
-  width: 30%;
+  width: 80px;
+  height: 80px;
+  
+ border: none;
 }
 
 /* card */
@@ -36,6 +49,7 @@
   flex-direction: column;
   border-radius: 25px;
   padding: 2%;
+  margin-top: 10px;
   box-shadow: 10px 10px;
 }
 /* Text*/
