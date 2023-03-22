@@ -3,9 +3,9 @@ The Narrator App: A text-to- speech app.
 
 <br/>
 
-## Brief
+## Description
 
-The Narrator App is a 
+The Narrator App is a full react application built from scratch. The API generates random quotes which are in turn translated from text to speech.
 
 <br/>
 
