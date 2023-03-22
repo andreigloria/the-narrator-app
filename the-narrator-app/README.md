@@ -1,33 +1,38 @@
 # Project Name: 
-The Narrator App
+The Narrator App: A text-to- speech app.
 
-
+<br/>
 
 ## Brief
 
-In the project directory, you can run:
+The Narrator App is a 
 
+<br/>
 
-## Technologies Used
+***Technologies used***
 HTML, CSS, JavaScript
 Bootstrap, Advice Api, React, Node JS
 Github
-
+<br/>
 
 
 ## Approach Taken 
 
 
-## Future Developments
+***Future Developments***
 Add speech to text function
 Translation feature choose different languages
 
-## Wins
+<br/>
+
+***Wins***
 Communicated well
 Helped each other
 Easily picked up tasks
 
-## Challenges
+<br/>
+
+***Challenges***
 Took a while selecting the idea
 Finding most suitable API
 Installing package modules required
