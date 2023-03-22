@@ -21,15 +21,15 @@ The Narrator App is a full react application built from scratch. The API generat
 
 
 ***Future Developments***
-- Add speech to text function
-- Translation feature choose different languages
+- Add a speech to text function
+- Add a translation feature so users can choose different languages
 
 <br/>
 
 ***Challenges***
-- Took a while selecting the idea
-- Finding most suitable API
-- Installing package modules required
+- Took a while to choose an idea to work on
+- Lost time in finding and choosing most suitable API
+- Errors installing package modules required
 
 
 <br/>
