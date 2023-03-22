@@ -36,10 +36,6 @@ function App() {
 
   return (
     <div className="app">
-      <header className="header">
-      
-      <h1 className="title">The Narrator App</h1>
-      </header>
       <img alt="" className="logo"></img>
        <div className="card">
         <h2 className="heading">{advice}</h2>
