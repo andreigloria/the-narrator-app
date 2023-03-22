@@ -1,3 +1,4 @@
+
 import React from 'react'
 // import ReactDOM from 'react-dom'
 import './App.css';
@@ -40,10 +41,10 @@ function App() {
        <div className="card">
         <h2 className="heading">{advice}</h2>
         <button className="button" onClick={fetchAdvice}>
-          <span>Generate</span>
+          <span style={{fontSize: 15}}>Generate</span>
         </button>
         <button className="button" onClick={speakAdvice}>
-          <span>Narrate</span>
+          <span style={{fontSize: 15}}>Narrate</span>
         </button>
       </div>
     </div>
