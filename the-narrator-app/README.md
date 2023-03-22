@@ -10,9 +10,10 @@ The Narrator App is a
 <br/>
 
 ***Technologies used***
-HTML, CSS, JavaScript
-Bootstrap, Advice Api, React, Node JS
-Github
+- HTML, CSS, JavaScript
+- Bootstrap, Advice Api, React, Node JS
+- Github
+
 <br/>
 
 
