@@ -21,19 +21,20 @@ The Narrator App is a
 
 
 ***Future Developments***
-Add speech to text function
-Translation feature choose different languages
-
-<br/>
-
-***Wins***
-Communicated well
-Helped each other
-Easily picked up tasks
+- Add speech to text function
+- Translation feature choose different languages
 
 <br/>
 
 ***Challenges***
-Took a while selecting the idea
-Finding most suitable API
-Installing package modules required
+- Took a while selecting the idea
+- Finding most suitable API
+- Installing package modules required
+
+
+<br/>
+
+***Wins***
+- Communicated well
+- Helped each other
+- Easily picked up tasks
