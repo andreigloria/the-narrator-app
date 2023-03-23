@@ -1,8 +1,13 @@
-#root, html, body {
+#root, html {
   margin: 0;
   padding: 0;
   height: 100vh;
   box-sizing: border-box;
+}
+
+.bodyEl {
+  margin: 0%;
+  padding: 0%;
 }
 
 /*Landing Page*/
@@ -17,6 +22,8 @@
   align-items: center;
   text-align: center;
 }
+
+/*Advice Generated*/
 .header {
   display: flex;
   align-items: center;
@@ -31,13 +38,15 @@
 }
 
 .logo {
-  background: url('./images/narrator_app.png');
-  background-repeat: no-repeat;
-  width: 275px;
-  height: 240px;
-  padding: 0;
-  margin: 0;
-  border: none;
+  background: url('./images/narrator_app_3.png') rgba(255, 255, 255, 0.4);
+  background-position: center;
+  background-size: cover;
+  height: 225px;
+  width: 225px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  box-shadow: 10px 10px;
 }
 
 /* card */
@@ -142,5 +151,20 @@
   .card {
       width: 80%;
       height: 40%;
+  }
+}
+
+/* Responsive logo*/
+@media only screen and (max-width:400px) {
+  .logo {
+    width: 30%;
+    height: 30%;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .logo {
+    width: 55%;
+    height: 25%;
   }
 }
