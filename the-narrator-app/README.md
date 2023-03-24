@@ -9,6 +9,10 @@ The Narrator App is a full react application built from scratch. The API generat
 
 <br/>
 
+## Usage
+
+<img width="1792" alt="the-narrator-app-deployment" src="https://user-images.githubusercontent.com/117936096/227616128-c1302a14-ae84-4fc6-b0a2-878be9303e9a.png">
+
 ***Technologies used***
 - HTML, CSS, JavaScript
 - Bootstrap, Advice Api, React, Node JS
